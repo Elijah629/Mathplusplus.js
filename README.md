@@ -1,12 +1,4 @@
   README
--.-.-.-.-.-
-------------
-===========
-*
-*
-*
-*
-*
 Install / add:
 [Add a CDN Link]
 [Add a download file link]
