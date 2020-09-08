@@ -33,6 +33,6 @@ n = number of sides. s = size. lw = line width. lc = line color. fc = fill color
 # Math.maxl([x]);
 orders numbers in greatest to least
 x = MUST HAVE [ and ] type in the [ and ] numbers followed by "," ex. Math.maxl([1,3,34,4,53]) will return "53,34,4,3,1"
-# Math.minl([]);
+# Math.minl([x]);
 orders numbers in least to greatest
 x = MUST HAVE [ and ] type in the [ and ] numbers followed by "," ex. Math.maxl([1,3,34,4,53]) will return "1,3,4,34,53"
