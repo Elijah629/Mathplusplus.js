@@ -1,7 +1,38 @@
 # Mathplusplus.js
-Math++.js Github Repository
-Welcome! This Is The Master Branch / base Here You Can Find Files And The Licence.
-
-To Goto diffrent versions  And see there info and install instructions go to there Respective branch.
-Also Go See The Realeses Tab And Download Them There Too
-All Versions NEED a Body Element (Im Putting It Here so i dont have to type it at all the versions to come)
+# How To Use : Functions:
+# Math.add([]);
+Adds an infinite amount of numbers together. to use type Math.add([]) "MUST HAVE [ AND ]" in the [ and ] type a number followed by a comma followed by a number foll- You get the point. It will add all the numbers together.Ex. Math.add([3,3,3,4]) Will Return 13.
+# Math.sub([]);
+Subtration Same, BUT SUBTRACTS FROM LEFT - RIGHT.
+# Math.mult;
+Multiplacation Multiplys all the numbers.From L - R.
+# Math.div;
+division Using the l - r rule.
+# Math.m([x],m);
+All modes above in one. x = an array for the equasion so for example in Math.add it would be Math.add([2,2]); Would return 4; M = The Mode, Type "M" for Multiplacation, Type "S" for subtraction, Type "D" for division, Type "A" for Addition (Also MUST have quotes) ex Math.m([2,2],"A").    
+# Math.VmRm(x);
+Its Simple Type The Equasion In the "()" for ex. Math.VmRm(2+4); Will Return 6; Operators: - for subtraction + for addition / for division * for multiplacation.
+# Math.count(s,f,e,m);
+Counts from:
+S is the starting number F is the finishing number e is the element to add the output to m is the line mode true = add line breaks for numbers false = no line break but a space insted.
+# Math.cRandom(m,g,e,r,a).
+More Controlled Random Numbers
+m=Multiplyer Of Numbers. G = From 0 - G Range to generate. E = Element to Post data to r = round options U for up D for down A = line break's true Or false.
+# Math.circle(r,sc,lw,fc);
+Makes Circles
+r = raidus, sc = outter line stroke color, lw = outter line width, fc = fill color of circle.
+# Math.square(h,w,fc);
+Makes Squares
+h = height, w = width, fc = fill color.
+# Math.tri(x1,y1,x2,y2,x3,y3,lw,ch,cw,lc,fc);
+Makes VERY accurate triangles ADVANCED
+x1 y1 = the x,y cords for the first point of the triangle.x2 y2 = the x,y cords for the second point of the triangle.x3 y3 = the x,y cords for the third point of the triangle point of the triangle; this point will auto connect to the first point. lw = line width. ch = canvas height (There is no reasonable way to calculate it) cw = canvas width (again no real way to get it). lc = line color. fc = fill color.
+# Math.octo(n,s,lw,lc,fc);
+Makes octogons
+n = number of sides. s = size. lw = line width. lc = line color. fc = fill color.
+# Math.maxl([x]);
+orders numbers in greatest to least
+x = MUST HAVE [ and ] type in the [ and ] numbers followed by "," ex. Math.maxl([1,3,34,4,53]) will return "53,34,4,3,1"
+# Math.minl([]);
+orders numbers in least to greatest
+x = MUST HAVE [ and ] type in the [ and ] numbers followed by "," ex. Math.maxl([1,3,34,4,53]) will return "1,3,4,34,53"
